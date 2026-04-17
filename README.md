@@ -12,3 +12,5 @@ You may test json file with html json canvas web page included in support projec
 3. Copy paste json file text in webpage text area.
 4. Press Draw button to see generated geometry feature object.
 5. Use one test data file to avoid webpage canvas rendering issues.
+
+https://github.com/shamszia/Circle457.Support/blob/main/TestsData/12-arc45-region45-radial-4step-fine-test-data-1.png
