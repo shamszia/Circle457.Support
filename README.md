@@ -1,4 +1,5 @@
 Circle 45 /7 (Symmetric Arc Height Circle) Support Project:
+https://www.elivabooks.com/en/book/book-6489950770, https://www.nuget.org/packages/circle457
 
 1. This project tests different features from Circle 45 /7 nuget library package. 
 
