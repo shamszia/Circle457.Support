@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ConsoleApp/1.0.0": {
+        "dependencies": {
+          "Circle457": "2.1.0"
+        },
+        "runtime": {
+          "ConsoleApp.dll": {}
+        }
+      },
+      "Circle457/2.1.0": {
+        "runtime": {
+          "lib/netstandard2.1/Circle457.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Circle457/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Psyq6ItaDu5F1wdMFQ/Pt8Iz6oWnD1sGO4Gd4A8k56bWCGIZF700tFno+dj6FUc5i48lxzDUn4CDkg/EPRxsvg==",
+      "path": "circle457/2.1.0",
+      "hashPath": "circle457.2.1.0.nupkg.sha512"
+    }
+  }
+}

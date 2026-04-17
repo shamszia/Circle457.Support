@@ -1,0 +1,11 @@
+.canvas-style {
+    /*
+    width: 600px;
+    height: 600px;*/
+    border: solid 1px #000;
+}
+
+.json-text-area {
+    text-align: left;
+    font-size: 10pt;
+}

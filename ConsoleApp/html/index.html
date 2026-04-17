@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+    <head>
+        <title>Circle 45 /7 & Octet 45 /7</title>
+        <script src="js/jquery.js"></script>
+        <script src="js/jquery-ui-1.12.1.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/knockout-3.4.2.js"></script>
+        <script src="js/knockout.validation.js"></script>
+
+        <link rel="stylesheet" href="css/jquery-ui.css" />
+        <link rel="stylesheet" href="css/jquery-ui.theme.css" />
+        <link rel="stylesheet" href="css/jquery-ui.structure.css" />
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="css/bootstrap-grid.css" />
+
+        <link rel="stylesheet" href="css/style.css" />
+
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <h1>Circle 45 /7 & Octet 45 /7</h1>
+        <p>This is one page html application that draw new theory Circle 45 /7 and Octet 45 /7 exported image data (in json files) from Circle457 API library using html canvas and javascript.
+            Circle 45 /7 is angle originating constants height circle, angle heights in equal counts and decode height angle with radial distance, its angle decode is different from trigonometry angle.
+        </p>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <h3>Json Data</h3>
+                <p>Write, place or copy paste json file data from Circle 45 /7 API library into this text area.</p>
+                <div id="json-data" >
+                    <textarea id="json-text-data" class="json-text-area" rows="14" cols="86"></textarea>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-10 col-lg-10">
+                        <h3>Data Statistics</h3>
+                        <div id="data-stats">
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-2 col-lg-2">
+                        <span class="d-flex justify-content-end">
+                            <button class="btn btn-primary mr-1" onclick="load_and_parse_data()">draw</button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <h3>Circle 45 /7 &amp; Octet 45 /7 Data Image Canvas</h3>
+                <p>Json data is translated and drawn in following canvas area.</p>
+                <canvas id="circle457-canvas" class="canvas-style p-2" width="600" height="600"></canvas>
+            </div>
+        </div>
+    </body>
+</html>

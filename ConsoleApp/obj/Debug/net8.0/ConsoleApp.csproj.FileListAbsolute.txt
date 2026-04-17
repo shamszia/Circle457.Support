@@ -1,0 +1,17 @@
+D:\projects\software\circle457\ConsoleApp\bin\Debug\net8.0\ConsoleApp.exe
+D:\projects\software\circle457\ConsoleApp\bin\Debug\net8.0\ConsoleApp.deps.json
+D:\projects\software\circle457\ConsoleApp\bin\Debug\net8.0\ConsoleApp.runtimeconfig.json
+D:\projects\software\circle457\ConsoleApp\bin\Debug\net8.0\ConsoleApp.dll
+D:\projects\software\circle457\ConsoleApp\bin\Debug\net8.0\ConsoleApp.pdb
+D:\projects\software\circle457\ConsoleApp\bin\Debug\net8.0\Circle457.dll
+D:\projects\software\circle457\ConsoleApp\obj\Debug\net8.0\ConsoleApp.csproj.AssemblyReference.cache
+D:\projects\software\circle457\ConsoleApp\obj\Debug\net8.0\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\software\circle457\ConsoleApp\obj\Debug\net8.0\ConsoleApp.AssemblyInfoInputs.cache
+D:\projects\software\circle457\ConsoleApp\obj\Debug\net8.0\ConsoleApp.AssemblyInfo.cs
+D:\projects\software\circle457\ConsoleApp\obj\Debug\net8.0\ConsoleApp.csproj.CoreCompileInputs.cache
+D:\projects\software\circle457\ConsoleApp\obj\Debug\net8.0\ConsoleApp.csproj.Up2Date
+D:\projects\software\circle457\ConsoleApp\obj\Debug\net8.0\ConsoleApp.dll
+D:\projects\software\circle457\ConsoleApp\obj\Debug\net8.0\refint\ConsoleApp.dll
+D:\projects\software\circle457\ConsoleApp\obj\Debug\net8.0\ConsoleApp.pdb
+D:\projects\software\circle457\ConsoleApp\obj\Debug\net8.0\ConsoleApp.genruntimeconfig.cache
+D:\projects\software\circle457\ConsoleApp\obj\Debug\net8.0\ref\ConsoleApp.dll

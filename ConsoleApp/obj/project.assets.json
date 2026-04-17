@@ -1,0 +1,110 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Circle457/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Circle457.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Circle457.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Circle457/2.1.0": {
+      "sha512": "Psyq6ItaDu5F1wdMFQ/Pt8Iz6oWnD1sGO4Gd4A8k56bWCGIZF700tFno+dj6FUc5i48lxzDUn4CDkg/EPRxsvg==",
+      "type": "package",
+      "path": "circle457/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "circle457.2.1.0.nupkg.sha512",
+        "circle457.nuspec",
+        "lib/netstandard2.1/Circle457.dll",
+        "readme.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Circle457 >= 2.1.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Shams Zia\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\projects\\software\\circle457\\ConsoleApp\\ConsoleApp.csproj",
+      "projectName": "ConsoleApp",
+      "projectPath": "D:\\projects\\software\\circle457\\ConsoleApp\\ConsoleApp.csproj",
+      "packagesPath": "C:\\Users\\Shams Zia\\.nuget\\packages\\",
+      "outputPath": "D:\\projects\\software\\circle457\\ConsoleApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Shams Zia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "Circle457": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "c:\\dotnet-sdks\\dotnet-sdk-8.0.413-win-x64\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
