@@ -1,4 +1,3 @@
-<img width="1336" height="800" alt="circle457-code-library-images-collection-arc-circles" src="https://github.com/user-attachments/assets/47b16b9e-9442-4c57-9280-4ac6f9731f09" />
 Circle 45 /7 (Symmetric Arc Height Circle) Support Project:
 https://www.elivabooks.com/en/book/book-6489950770, https://www.nuget.org/packages/circle457
 
@@ -15,3 +14,5 @@ You may test json file with html json canvas web page included in support projec
 5. Use one test data file to avoid webpage canvas rendering issues.
 
 https://github.com/shamszia/Circle457.Support/blob/main/TestsData/12-arc45-region45-radial-4step-fine-test-data-1.png
+
+<img width="1336" height="800" alt="circle457-code-library-images-collection-arc-circles" src="https://github.com/user-attachments/assets/47b16b9e-9442-4c57-9280-4ac6f9731f09" />
