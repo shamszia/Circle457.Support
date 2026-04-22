@@ -3,7 +3,7 @@ https://www.elivabooks.com/en/book/book-6489950770, https://www.nuget.org/packag
 
 1. This project tests different features from Circle 45 /7 nuget library package. 
 
-Run and load tests data one by one to avoid rendering problem with webpage canvas, each test will generate a json file in bin folder. 
+Run and load tests data one by one to avoid points memory loading problem with webpage canvas, each test will generate a json file in bin folder. 
 
 You may test json file with html json canvas web page included in support project in html folder.
 
