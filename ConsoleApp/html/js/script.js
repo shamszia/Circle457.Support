@@ -60,8 +60,9 @@ function draw_pixel(x=0, y=0, status=null) {
     context.putImageData(imageData, x, y);
 }
 
-function load_and_parse_data() {
+function load_and_parse_data(displayData) {
 
+    var datastats = "";
     document.getElementById("data-stats").innerHTML = "";
     
     var jsonData = document.getElementById('json-text-data').value;
@@ -75,43 +76,51 @@ function load_and_parse_data() {
 
                 if (circle45Object.id === "Angle7") {
                     
-                    var width = undefined;
-                    var height = undefined;
-                    var deltaY = Math.abs(circle45Object.data.y2 - circle45Object.data.y1);
-                    var deltaX = Math.abs(circle45Object.data.x2 - circle45Object.data.x1);
-                    var radius = Math.sqrt(Math.pow(deltaX, 2) + Math.pow(deltaY, 2));
+                    if (displayData) {
+                        var width = undefined;
+                        var height = undefined;
+                        var deltaY = Math.abs(circle45Object.data.y2 - circle45Object.data.y1);
+                        var deltaX = Math.abs(circle45Object.data.x2 - circle45Object.data.x1);
+                        var radius = Math.sqrt(Math.pow(deltaX, 2) + Math.pow(deltaY, 2));
 
-                    width = deltaX;
-                    height = deltaY;
-                    if (width < height) {
-                        width = height;
-                        height = deltaX;
+                        width = deltaX;
+                        height = deltaY;
+                        if (width < height) {
+                            width = height;
+                            height = deltaX;
 
-                        var data = 90 - (height/(radius * H71C));
-                        document.getElementById("data-stats").innerHTML += "<div>Angle7: " + data + "</div>";
-                    }
-                    else {
+                            var data = 90 - (height/(radius * H71C));
+                            datastats += "<div>Angle7: " + data + "</div>";
+                        }
+                        else {
 
-                        var data = height/(radius * H71C);
-                        document.getElementById("data-stats").innerHTML += "<div>Angle7: " + data + "</div>";
+                            var data = height/(radius * H71C);
+                            datastats += "<div>Angle7: " + data + "</div>";
+                        }
                     }
                 }
                 else if (circle45Object.id === "ComputedPoint7Line") { 
 
                     if (circle45Object.data !== null && circle45Object.data !== undefined) {
 
-                        document.getElementById("data-stats").innerHTML += "<div><b>" + circle45Object.id + "</b></div>";
-                        document.getElementById("data-stats").innerHTML += "<div>Object Angle: " + circle45Object.angle + "</div>";
-                        document.getElementById("data-stats").innerHTML += "<div>Object Radius: " + circle45Object.radius + "</div>";
+                        if (displayData) {
+
+                            datastats += "<div><b>" + circle45Object.id + "</b></div>";
+                            datastats += "<div>Object Angle: " + circle45Object.angle + "</div>";
+                            datastats += "<div>Object Radius: " + circle45Object.radius + "</div>";
+                        }
 
                         circle45Object.data.forEach(point => {
 
                             //X7Angle Y7Angle RadiusDistance X7Fraction Y7Fraction
-
                             draw_pixel(point.x, point.y, point.Status);
-                            document.getElementById("data-stats").innerHTML += "<div><b>x:</b>&nbsp;&nbsp;" + point.x + ", <b>y:</b>&nbsp;&nbsp;" + point.y + ", <b>Status:</b>&nbsp;&nbsp;" + point.Status + "</div>";
-                            document.getElementById("data-stats").innerHTML += "<div>x7:&nbsp;&nbsp;" + point.X7Angle + ", y7:&nbsp;&nbsp;" + point.Y7Angle + ", d:&nbsp;&nbsp;" + point.RadiusDistance + "</div>";
-                            document.getElementById("data-stats").innerHTML += "<div>x7f:&nbsp;&nbsp;" + point.X7Fraction + ", y7f:&nbsp;&nbsp;" + point.Y7Fraction + "</div>";
+
+                            if (displayData) {
+
+                                datastats += "<div><b>x:</b>&nbsp;&nbsp;" + point.x + ", <b>y:</b>&nbsp;&nbsp;" + point.y + ", <b>Status:</b>&nbsp;&nbsp;" + point.Status + "</div>";
+                                datastats += "<div>x7:&nbsp;&nbsp;" + point.X7Angle + ", y7:&nbsp;&nbsp;" + point.Y7Angle + ", d:&nbsp;&nbsp;" + point.RadiusDistance + "</div>";
+                                datastats += "<div>x7f:&nbsp;&nbsp;" + point.X7Fraction + ", y7f:&nbsp;&nbsp;" + point.Y7Fraction + "</div>";
+                            }
                         });
                     }
                 }
@@ -119,20 +128,27 @@ function load_and_parse_data() {
 
                     if (circle45Object.data !== null && circle45Object.data !== undefined) {
 
-                        document.getElementById("data-stats").innerHTML += "<div><b>" + circle45Object.id + "</b></div>";
+                        if (displayData) {
+                            datastats += "<div><b>" + circle45Object.id + "</b></div>";
+                        }
+
                         circle45Object.data.forEach(point => {
 
-                            draw_pixel(point.x, point.y);
-                            document.getElementById("data-stats").innerHTML += "<div>Point7: x:" + point.x + ", y:" + point.y + "</div>";
+                            draw_pixel(point.x, point.y, point.Status);
+
+                            if (displayData) {
+                                datastats += "<div>Point7: x:" + point.x + ", y:" + point.y + "</div>";
+                            }
                         });
                     }
                 }
             });
+
+            if (displayData) {
+                document.getElementById("data-stats").innerHTML += datastats;
+            }
+
+            document.getElementById("data-stats").innerHTML += "<div>drawing completed.</div>";
         }
     }
-}
-
-function script_app() {
-    
-    load_and_parse_data();
 }
