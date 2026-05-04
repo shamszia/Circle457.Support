@@ -3,7 +3,7 @@ This is published research project (https://www.elivabooks.com/en/book/book-6489
 
 Book & library support in practicing and learning:
 
-1. Circle 45 /7 architecture its design philosophy (Symmetric Arc Heights)
+1. Circle 45 /7 architecture & its design philosophy (Symmetric Arc Heights)
 2. Identifying architecture region types as (Region45Type, Region90Type)
 3. Identifying Y and X heights and their respective regions.
 4. Relation between height and angles
