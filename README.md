@@ -1,7 +1,23 @@
 Circle 45 /7 (Symmetric Arc Height Circle) Support Project:
-https://www.elivabooks.com/en/book/book-6489950770, https://www.nuget.org/packages/circle457
+This is published research project (https://www.elivabooks.com/en/book/book-6489950770) with newly software implemented library (https://www.nuget.org/packages/circle457)
 
-1. This project tests different features from Circle 45 /7 nuget library package. 
+Book & library support in practicing and learning:
+
+1. Circle 45 /7 architecture its design philosophy (Symmetric Arc Heights)
+2. Identifying architecture region types as (Region45Type, Region90Type)
+3. Identifying Y and X heights and their respective regions.
+4. Relation between height and angles
+5. Realizing RegionTypes to Region45 for each of 8 equal circle regions.
+6. Solving angle with respect to Region45 and 2D Design.
+7. Line45 based line drawing (in Default and Difference methods)
+8. Line45 is not LineSlope (y = mx + c), its angle based precise and height controlled
+9. Line45 provide additional angle support to drawing.
+10. Arc45 to draw circle, regions, region45.
+11. Axis support to measure drawings.
+12. Octet45 circle (or octet or otect circle) as angle function of equal heights.
+13. Octet45Arc to draw Octet circle or Octet Region45.
+
+This project tests different features from Circle 45 /7 nuget library package and is a startup directive.
 
 Run and load tests data one by one to avoid points memory loading problem with webpage canvas, each test will generate a json file in bin folder. 
 
