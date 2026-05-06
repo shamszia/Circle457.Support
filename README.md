@@ -6,7 +6,7 @@ Book & library support in practicing and learning:
 1. Circle 45 /7 architecture & its design philosophy (Symmetric Arc Heights)
 2. Identifying architecture region types as (Region45Type, Region90Type)
 3. Identifying Y and X heights and their respective regions.
-4. X height enclosed arc45 and Y height encolsed arc45 regions are called as X height region and Y height region respetively.
+4. X height enclosed arc45 and Y height encolsed arc45 regions called as X height region and Y height region respectively.
 5. 0-45, 135-180, 180-225, 315-360 degrees are Region45Type (or Y Arc45 Regions)
 6. 45-90, 90-135, 225-270, 270-315 degrees are Region90Type (or X Arc45 Regions)
 7. Relation between height and angles
