@@ -17,7 +17,7 @@ Book & library support in practicing and learning:
 12. Line45 provide additional angle support to drawing.
 13. Arc45 to draw circle, regions, region45.
 14. Axis support to measure drawings.
-15. Octet45 circle (or octet or otect circle) as angle function of equal heights.
+15. Octet45 circle (or octet or octect circle) as angle function of equal heights.
 16. Octet45Arc to draw Octet circle or Octet Region45.
 
 This project tests different features from Circle 45 /7 nuget library package and is a startup directive.
