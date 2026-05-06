@@ -6,16 +6,19 @@ Book & library support in practicing and learning:
 1. Circle 45 /7 architecture & its design philosophy (Symmetric Arc Heights)
 2. Identifying architecture region types as (Region45Type, Region90Type)
 3. Identifying Y and X heights and their respective regions.
-4. Relation between height and angles
-5. Realizing RegionTypes to Region45 for each of 8 equal circle regions.
-6. Solving angle with respect to Region45 and 2D Design.
-7. Line45 based line drawing (in Default and Difference methods)
-8. Line45 is not LineSlope (y = mx + c), its angle based precise and height controlled
-9. Line45 provide additional angle support to drawing.
-10. Arc45 to draw circle, regions, region45.
-11. Axis support to measure drawings.
-12. Octet45 circle (or octet or otect circle) as angle function of equal heights.
-13. Octet45Arc to draw Octet circle or Octet Region45.
+4. X height enclosed arc45 and Y height encolsed arc45 regions are called as X height region and Y height region respetively.
+5. 0-45, 135-180, 180-225, 315-360 degrees are Region45Type (or Y Arc45 Regions)
+6. 45-90, 90-135, 225-270, 270-315 degrees are Region90Type (or X Arc45 Regions)
+7. Relation between height and angles
+8. Realizing RegionTypes to Region45 for each of 8 equal circle regions.
+9. Solving angle with respect to Region45 and 2D Design.
+10. Line45 based line drawing (in Default and Difference methods)
+11. Line45 is not LineSlope (y = mx + c), its angle based precise and height controlled
+12. Line45 provide additional angle support to drawing.
+13. Arc45 to draw circle, regions, region45.
+14. Axis support to measure drawings.
+15. Octet45 circle (or octet or otect circle) as angle function of equal heights.
+16. Octet45Arc to draw Octet circle or Octet Region45.
 
 This project tests different features from Circle 45 /7 nuget library package and is a startup directive.
 
