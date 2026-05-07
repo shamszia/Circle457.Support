@@ -11,7 +11,7 @@ Book & library support in practicing and learning:
 6. 45-90, 90-135, 225-270, 270-315 degrees are Region90Type (or X Arc45 Regions)
 7. Relation between height and angles
 8. Realizing RegionTypes to Region45 for each of 8 equal circle regions.
-9. Solving angle with respect to Region45 and 2D Design.
+9. Solving angle with respect to Region45 and 2D Design (2D45).
 10. Line45 based line drawing (in Default and Difference methods)
 11. Line45 is not LineSlope (y = mx + c), its angle based precise and height controlled
 12. Line45 provide additional angle support to drawing.
@@ -19,6 +19,7 @@ Book & library support in practicing and learning:
 14. Axis support to measure drawings.
 15. Octet45 circle (or octet or octect circle) as angle function of equal heights.
 16. Octet45Arc to draw Octet circle or Octet Region45.
+17. Circle457 and 2D together establish 2D45 Design and Drawings.
 
 This project tests different features from Circle 45 /7 nuget library package and is a startup directive.
 
