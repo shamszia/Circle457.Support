@@ -21,6 +21,11 @@ Book & library support in practicing and learning:
 16. Octet45Arc to draw Octet circle or Octet Region45.
 17. Circle457 and 2D together establish 2D45 Design and Drawings.
 
+
+Circle457 and 2D Reference:
+https://www.researchgate.net/publication/381800443_Circle_457_Theory_Research_Book
+
+
 This project tests different features from Circle 45 /7 nuget library package and is a startup directive.
 
 Run and load tests data one by one to avoid points memory loading problem with webpage canvas, each test will generate a json file in bin folder. 
