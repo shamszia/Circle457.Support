@@ -59,4 +59,5 @@ Line45 Drawing<br />
 <img width="610" height="607" alt="circle-line45-drawing" src="https://github.com/user-attachments/assets/a5abf84d-b29a-4ce9-925d-77f7ad238dc5" />
 
 Slope7 Circles<br />
-<img width="1366" height="768" alt="slope7-circles" src="https://github.com/user-attachments/assets/8783d1f0-b106-472a-8c9c-2938db102cbb" />
+<img width="603" height="602" alt="slope7-circles-1" src="https://github.com/user-attachments/assets/acd9b088-d7aa-4b01-99cb-51164c19c8c7" />
+
