@@ -21,7 +21,7 @@ Book & library support in practicing and learning:
 16. Octet45Arc to draw Octet circle or Octet Region45.
 17. Circle457 and 2D together establish 2D45 Design and Drawings.
 
-Circle457 Research Theory Support (Version 2.1.0.10/11):<br />
+Circle457 Research Theory Support (Nuget Version 2.1.0.10/11):<br />
 1. Symmetric Arc Height Distance Circle457 Method
 2. Symmetric Arc Quadrant Height Distance Resolution Circle457 Method
 3. Symmetric Arc Height X and Symmetric Arc Height Y Octet457 Method
