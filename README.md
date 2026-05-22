@@ -22,10 +22,10 @@ Book & library support in practicing and learning:
 17. Circle457 and 2D together establish 2D45 Design and Drawings.
 
 Circle457 Research Theory Support (Version 2.1.0.10/11):<br />
-1. Symmetric Height Distance Circle457 Method
-2. Symmetric Quadrant Height Distance Resolution Circle457 Method
-3. Symmetric Height X and Symmetric Height Y Octet457 Method
-4. Symmetric Height Slope7 Circle457 Method
+1. Symmetric Arc Height Distance Circle457 Method
+2. Symmetric Arc Quadrant Height Distance Resolution Circle457 Method
+3. Symmetric Arc Height X and Symmetric Height Y Octet457 Method
+4. Symmetric Arc Height Slope7 Circle457 Method
 
 Circle457 and 2D Reference:<br />
 https://www.researchgate.net/publication/381800443_Circle_457_Theory_Research_Book
