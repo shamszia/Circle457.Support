@@ -24,7 +24,7 @@ Book & library support in practicing and learning:
 Circle457 Research Theory Support (Version 2.1.0.10/11):<br />
 1. Symmetric Arc Height Distance Circle457 Method
 2. Symmetric Arc Quadrant Height Distance Resolution Circle457 Method
-3. Symmetric Arc Height X and Symmetric Height Y Octet457 Method
+3. Symmetric Arc Height X and Symmetric Arc Height Y Octet457 Method
 4. Symmetric Arc Height Slope7 Circle457 Method
 
 Circle457 and 2D Reference:<br />
