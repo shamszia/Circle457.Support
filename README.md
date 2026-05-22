@@ -21,6 +21,11 @@ Book & library support in practicing and learning:
 16. Octet45Arc to draw Octet circle or Octet Region45.
 17. Circle457 and 2D together establish 2D45 Design and Drawings.
 
+Circle457 Research Theory Support (Version 2.1.0.10/11):<br />
+1. Symmetric Height Distance Circle457 Method
+2. Symmetric Quadrant Height Distance Resolution Circle457 Method
+3. Symmetric Height X and Symmetric Height Y Octet457 Method
+4. Symmetric Height Slope7 Circle457 Method
 
 Circle457 and 2D Reference:<br />
 https://www.researchgate.net/publication/381800443_Circle_457_Theory_Research_Book
@@ -44,7 +49,8 @@ Variable Radial Length Arcs<br />
 <img width="1336" height="800" alt="circle457-code-library-images-collection-arc-circles" src="https://github.com/user-attachments/assets/47b16b9e-9442-4c57-9280-4ac6f9731f09" />
 
 Line45:<br />
-<img width="605" height="605" alt="line45-axis-drawing" src="https://github.com/user-attachments/assets/3fa01e9c-46d2-4b4d-8c10-5afe5eb1aef6" />
+<img width="621" height="619" alt="62-line45-drawing-360-round-test9" src="https://github.com/user-attachments/assets/76e4d5b5-8683-49d7-91aa-234fc20c0d5a" />
+
 
 HeightDistance Method Circle:<br />
 <img width="607" height="598" alt="circle457-height-distance-method-circle" src="https://github.com/user-attachments/assets/40de76d9-c339-4771-bcc4-21060f3a74f6" />
