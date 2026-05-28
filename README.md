@@ -67,6 +67,10 @@ Line45 Drawing<br />
 Slope7 Circles<br />
 <img width="603" height="602" alt="slope7-circles-1" src="https://github.com/user-attachments/assets/acd9b088-d7aa-4b01-99cb-51164c19c8c7" />
 
+Symmetric Slope7 Arc Circle<br />
+<img width="621" height="622" alt="64-symmetric-slope-arc-circles-0-360-test1" src="https://github.com/user-attachments/assets/c61f46d1-6c46-43e5-8af5-6fe06576f07a" />
+
+
 Origin Angle7 Coordinate Translation <br />
 <img width="621" height="619" alt="63-coordinate-translation-0-360-test1" src="https://github.com/user-attachments/assets/a839a887-5da1-44df-b4f5-62110d10cda8" />
 
