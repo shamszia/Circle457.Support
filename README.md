@@ -33,7 +33,7 @@ https://www.researchgate.net/publication/381800443_Circle_457_Theory_Research_Bo
 
 This project tests different features from Circle 45 /7 nuget library package and is a startup directive.
 
-Run and load tests data one by one to avoid points memory loading problem with webpage canvas, each test will generate a json file in bin folder. 
+Run and load tests data one by one to avoid memory loading problem, each test will generate a json file in bin folder. 
 
 You may test json file with html json canvas web page included in support project in html folder.
 
