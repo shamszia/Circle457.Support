@@ -2,24 +2,27 @@ Circle 45 /7 (Symmetric Arc Height Circle) Support Project:
 This is published research project (https://www.elivabooks.com/en/book/book-6489950770) with newly software implemented library (https://www.nuget.org/packages/circle457)
 
 Book & library support in practicing and learning:
-
-1. Circle 45 /7 architecture & its design philosophy (Symmetric Arc Heights)
-2. Identifying architecture region types as (Region45Type, Region90Type)
-3. Identifying Y and X heights and their respective regions.
-4. X height enclosed arc45 and Y height encolsed arc45 regions called as X height region and Y height region respectively.
-5. 0-45, 135-180, 180-225, 315-360 degrees are Region45Type (or Y Arc45 Regions)
-6. 45-90, 90-135, 225-270, 270-315 degrees are Region90Type (or X Arc45 Regions)
-7. Relation between height and angles
-8. Realizing RegionTypes to Region45 for each of 8 equal circle regions.
-9. Solving angle with respect to Region45 and 2D Design (2D45).
-10. Line45 based line drawing (in Default and Difference methods)
-11. Line45 is not LineSlope (y = mx + c), its angle based precise and height controlled
-12. Line45 provide additional angle support to drawing.
-13. Arc45 to draw circle, regions, region45.
-14. Axis support to measure drawings.
-15. Octet45 circle (or octet or octect circle) as angle function of equal heights.
-16. Octet45Arc to draw Octet circle or Octet Region45.
-17. Circle457 and 2D together establish 2D45 Design and Drawings.
+ 
+1. Symmetric Arc Height Circle (Subtitle 1)
+2. Equal Count Symmetric Arc, Symmetric Height (1Height, 1Slope, 1Radius Translation), Circle 45 /7 (Subtitle 2)
+3. Abstract Arc45 Circle (Subtitle 3)
+4. Circle 45 /7 architecture & its design philosophy (Symmetric Arc Heights)
+5. Identifying architecture region types as (Region45Type, Region90Type)
+6. Identifying Y and X heights and their respective regions.
+7. X height enclosed arc45 and Y height encolsed arc45 regions called as X height region and Y height region respectively.
+8. 0-45, 135-180, 180-225, 315-360 degrees are Region45Type (or Y Arc45 Regions)
+9. 45-90, 90-135, 225-270, 270-315 degrees are Region90Type (or X Arc45 Regions)
+10. Relation between height and angles
+11. Realizing RegionTypes to Region45 for each of 8 equal circle regions.
+12. Solving angle with respect to Region45 and 2D Design (2D45).
+13. Line45 based line drawing (in Default and Difference methods)
+14. Line45 is not LineSlope (y = mx + c), its angle based precise and height controlled
+15. Line45 provide additional angle support to drawing.
+16. Arc45 to draw circle, regions, region45.
+17. Axis support to measure drawings.
+18. Octet45 circle (or octet or octect circle) as angle function of equal heights.
+19. Octet45Arc to draw Octet circle or Octet Region45.
+20. Circle457 and 2D together establish 2D45 Design and Drawings.
 
 Circle457 Research Theory Support (Nuget Version 2.1.0.10/11):<br />
 1. Symmetric Arc Height Distance Circle457 Method
