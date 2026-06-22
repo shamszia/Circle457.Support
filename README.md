@@ -77,7 +77,7 @@ Symmetric Slope7 Arc Circle<br />
 Origin Angle7 Coordinate Translation <br />
 <img width="621" height="619" alt="63-coordinate-translation-0-360-test1" src="https://github.com/user-attachments/assets/a839a887-5da1-44df-b4f5-62110d10cda8" />
 
-Distance457 9M Tests <br />
+Distance457 (or SymmetricDistance) 9M Tests <br />
 <img width="932" height="622" alt="65-distance457-9M-tests" src="https://github.com/user-attachments/assets/ffe302ec-b0c8-4510-bedb-94dfd869e627" />
 
 
