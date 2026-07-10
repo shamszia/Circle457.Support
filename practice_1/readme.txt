@@ -21,6 +21,6 @@ and Implementation
 https://www.nuget.org/packages/Circle457
 
 Circle 45 /7 (Features)
-*one of its unique points is its capacity to translate symmetric heights (y) to slope displacement (x) forming coordinates without specialized translators (like COS and SINE functions). i.e. provide angle height direct translation with correct coordinate resolutions.
-*its angles or not translation dependent
+*one of its unique points is its capacity to translate symmetric heights (y) to slope displacement (x) forming coordinates without specialized translators (like COS and SINE functions). i.e. provides angle height direct translation with correct coordinate resolutions.
+*its angles are not translation dependent
 *angle originating source circle theory and design that is directly propotional to symmetric height and vice versa.
